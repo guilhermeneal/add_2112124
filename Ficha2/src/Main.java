@@ -54,6 +54,7 @@ public class Main {
         }
     }
 
+
     public static void main(String[] args) {
         int potencia = powerOf(4, 4);
         System.out.println("Potência (4^4): " + potencia);
