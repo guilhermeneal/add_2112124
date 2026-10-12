@@ -22,5 +22,16 @@ public class Main {
         MatrixUtilities.show(MatrixUtilities.multiplyBy(matrix, 2));
         MatrixUtilities.areCompatibleForSum(matrix,matrix2);
         MatrixUtilities.show(MatrixUtilities.sumOf(matrix, matrix2));
+
+        CharacterDrawingUtilities.drawElement('*');
+        CharacterDrawingUtilities.drawNewLine();
+
+        CharacterDrawingUtilities.drawHorizontalSegmentWith(10, '+');
+        CharacterDrawingUtilities.drawNewLine();
+
+        CharacterDrawingUtilities.drawFilledRectangleWith(5, 10, '+');
+        CharacterDrawingUtilities.drawNewLine();
+
+        CharacterDrawingUtilities.drawEmptyRectangleWith(5, 10, '*');
     }
 }
